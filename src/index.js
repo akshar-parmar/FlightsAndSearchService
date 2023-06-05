@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const {PORT} = require('./config/serverConfig.js');
+
 const SetupAndStartServer = async()=>{
     
     //create the express object
