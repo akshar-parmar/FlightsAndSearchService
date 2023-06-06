@@ -1,4 +1,4 @@
-const {CityService} = require('../services/index');
+const {CityService} = require('../services/index.js');
 //create a global CityService object
 const cityService = new CityService();
 
