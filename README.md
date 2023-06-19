@@ -44,3 +44,4 @@ and then execute
 ```
 
 npx sequelize seed:generate --name add-airplanes
+
