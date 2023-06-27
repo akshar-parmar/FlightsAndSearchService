@@ -53,7 +53,8 @@ const destroy = async(req,res)=>{
 //GET request->/city/:id
 const get = async(req,res)=>{
     try{
-        const city = await cityService.getCity(req.params.id);
+        const id = req.params.id;
+        const city = await cityService.getCity(id);
         return res.status(200).json({
             data:city,
             success:true,
